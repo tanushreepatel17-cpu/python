@@ -1,0 +1,9 @@
+#multiple inheritance = inherit from more than one parent class
+                        c(A,B)
+#multilevel inheritance = inherit from a parent which inherit from another parent 
+                        c(B) <- B(A) <- A 
+
+Class prey:
+    pass
+
+Class Predator
